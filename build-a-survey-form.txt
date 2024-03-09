@@ -1,0 +1,149 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Your programming code</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Your programming code</h1>  
+    <p class="p1" id="description">Let us know which programming style best represents you</p>
+    <form id="survey-form">
+      <div class="input-div">
+        <label for="name" id="name-label">Your Name</label>
+        <input id="name" name="name" placeholder="Insert your name" required type="text" />
+      </div>
+      <div class="input-div">
+        <label for="email" id="email-label">Your Email</label>
+        <input id="email" name="email" placeholder="Insert your E-mail" required type="email" />
+      </div>
+      <div class="input-div">
+        <label for="number" id="number-label">Years of coding</label>
+        <input id="number" name="number" placeholder="Insert your coding experience (years)" required type="number" min="0" max="100" />
+      </div>
+      <div class="input-div">
+        <label for="code" id="code-label">What’s your favorite code?</label>
+        <select id="dropdown" name="code">
+          <option value="your-favorite-code" selected>Select your favorite code</option>
+          <option value="html-css-javaScript">HTML, CSS, JavaScript</option>
+          <option value="c-c++-c#">C, C++, C#</option>
+          <option value="python">Python</option>
+          <option value="Java">Java</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <p>Would you enroll in a computer science degree course?</p>
+      <input id="surely" name="degree-course" type="radio" value="Surely" />
+      <label for="surely"> Surely</label><br>
+      <input id="maybe" name="degree-course" type="radio" value="Maybe" />
+      <label for="maybe"> Maybe</label><br>
+      <input id="absolutely-not" name="degree-course" type="radio" value="Absolutely Not" />
+      <label for="not-sure"> Absolutely Not</label>
+      <p>In which sector would you work? (Multiple choice in you want)</p>
+      <input type="checkbox" id="sector1" name="sector1" value="Front-end" />
+      <label for="sector1">Front-end</label><br>
+      <input type="checkbox" id="sector2" name="sector2" value="Back-end" />
+      <label for="sector2">Back-end</label><br>
+      <input type="checkbox" id="sector3" name="sector3" value="Data-analyst" />
+      <label for="sector3">Data Analyst</label><br>
+      <input type="checkbox" id="sector4" name="sector4" value="Cybersecurity" />
+      <label for="sector4">Cybersecurity</label><br>
+      <input type="checkbox" id="sector5" name="sector5" value="Testing" />
+      <label for="sector5">Testing</label><br></br>
+      <div class="input-div">
+        <label for="other"><p>Do you want to add more?</p></label>
+        <textarea name="other" rows="10" cols="30">
+Enter here...
+        </textarea>
+      </div>
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background-image: linear-gradient(125deg, rgb(0, 175, 220), white, rgb(0, 175, 220));
+  
+  color: white;
+  text-shadow: 2px 3px 2px #333;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.p1, h1 {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+form {
+  background-color: rgba(255, 180, 0, 0.7);
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 40px 30px;
+  max-width: 500px;
+}
+
+.input-div {
+  margin-right: 30px;
+}
+
+.input-div input, .input-div select {
+  margin-top: 10px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: normal;  
+  margin-bottom: 12px;
+}
+
+select {
+  border-radius: 8px;
+  font-size: 20px;
+  height: 50px;
+  margin-bottom: 32px;
+  padding: 12px;
+  width: 100%;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  width: 10%;
+}
+
+input, select, textarea {
+  border-radius: 8px;
+  font-size: 20px;
+  margin-bottom: 32px;
+  padding: 12px;
+  width: 100%;
+}
+
+button {
+  display: block;
+  height: 30px;
+  margin: auto;
+}
+
+
+** end of undefined **
+
